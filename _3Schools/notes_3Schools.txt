@@ -1,0 +1,118 @@
+
+https://en.wikipedia.org/wiki/Go_(programming_language)
+
+https://gin-gonic.com/
+https://gofiber.io/
+https://github.com/stretchr/testify
+https://gorm.io/
+
+https://daily.dev/blog/top-8-go-web-frameworks-compared-2024
+
+https://www.w3schools.com/go/
+
+Go is a fast, statically typed, compiled language known for its simplicity and efficiency
+
+https://github.com/griesemer
+
+Go's syntax is similar to C++
+
+What is Go Used For?
+Web development (server-side)
+Developing network-based programs
+Developing cross-platform enterprise applications
+Cloud-native development
+
+Why Use Go?
+Go is fun and easy to learn
+Go has fast run time and compilation time
+Go supports concurrency
+Go has memory management
+Go works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+
+Statically typed
+Fast run time
+Compiled
+Fast compile time
+Supports concurrency through goroutines and channel
+Has automatic garbage collection
+Does not support classes and objects
+Does not support inheritance
+
+>> go version
+go version go1.19.2 windows/amd64
+
+Go Syntax::
+
+Package declaration
+Import packages
+Functions
+Statements and expressions
+
+In Go, statements are separated by ending a line (hitting the Enter key) or by a semicolon ";".
+The left curly bracket { cannot come at the start of a line.
+
+Go supports single-line or multi-line comments
+//,
+
+It is not possible to declare a variable using ":=" without assigning a value to it.
+
+There are some small differences between the var var :=
+
+var
+Can be used inside and outside of functions
+Variable declaration and value assignment can be done separately
+
+:=
+Can only be used inside functions
+Variable declaration and value assignment cannot be done separately (must be done in the same line)
+
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+The variable name cannot be any Go keywords
+
+Uber Go Style Guide
+https://github.com/uber-go/guide/blob/master/style.md
+
+If a variable should have a fixed value that cannot be changed, you can use the const keyword.
+
+Go is statically typed, meaning that once a variable type is defined, it can only store data of that type.
+
+Build a RESTful CRUD API with Golang no framework
+https://www.youtube.com/watch?v=S0oxmic3IUs
+https://medium.com/@antonyshikubu/golang-crud-api-45abf75b6a10
+
+Creating a JSON CRUD API in Go (Gin/GORM)
+https://www.youtube.com/watch?v=lf_kiH_NPvM
+
+Gin Tutorial
+https://masteringbackend.com/posts/gin-framework
+
+https://github.com/go-pdf/fpdf
+
+https://go-chi.io/#/
+https://github.com/quii/learn-go-with-tests?tab=readme-ov-file
+
+https://medium.com/@sheimyrahman/c%C3%B3digo-top-21-dias-de-detox-com-go-877ae0bef136
+
+Go Tooling
+https://www.alexedwards.net/blog/an-overview-of-go-tooling
+
+https://go.dev/talks/2012/splash.article#TOC_13.
+
+====================================================================================
+https://www.tutorialspoint.com/go/index.htm
+https://www.tutorialspoint.com/go/go_functions.htm
+https://gobyexample.com/functions
+
+https://go.dev/blog/
+https://www.youtube.com/watch?v=PL0c-SvjSVg
+
+https://www.alexedwards.net/blog/an-overview-of-go-tooling
+https://medium.com/trainingcenter/golang-e-docker-d2d9dedd82c0
+
+Docker
+Create Docker Container with Go App
+https://www.youtube.com/watch?v=C5y-14YFs_8
+
+
+
+

@@ -1,0 +1,43 @@
+
+https://en.wikipedia.org/wiki/Go_(programming_language)
+
+https://www.gopl.io/
+https://go.dev/
+https://github.com/avelino/awesome-go
+https://go.dev/doc/tutorial/
+
+https://zerotomastery.io/blog/why-you-should-learn-golang/
+https://www.w3schools.com/go/
+https://boldlygo.tech/
+https://go.dev/tour/list
+
+https://go.dev/tour/welcome/1
+https://gobyexample.com/
+
+HunCoding
+https://www.youtube.com/@huncoding
+
+If you think about it, web browsers are the new operating systems
+
+Go (Golang) is a general-purpose programming language built by Google
+with a heavy focus on scalable, high-performance applications.
+
+Goroutines are Go's way of managing multiple threads and in-flight requests.
+Channels are used to communicate with goroutines.
+
+Go applications compile to a single binary that can be easily packaged and distributed to the target operating system.
+Go is only outperformed by the C, C++, and Rust languages.
+
+Go, like many popular languages, implements memory management through a garbage collector,
+so you don't need to worry about keeping track of memory allocations.
+
+Since Go manages memory for you, there is no need to manually allocate and deallocate data.
+
+https://go.dev/talks/2012/splash.article
+
+Go also features static typing with type inference, so you'll only need to
+provide data types in function signatures and structures.
+
+Go's concurrency and speed make it especially prevalent with payment processors
+and streaming services since they have such extreme volume requirements.
+
