@@ -114,5 +114,211 @@ Create Docker Container with Go App
 https://www.youtube.com/watch?v=C5y-14YFs_8
 
 
+Refresh 30_04_2025
+
+[Chapter 01]
+
+Full Cycle
+https://goexpert.fullcycle.com.br/pos-goexpert/
+
+Google, Go is an open-source programming language and is
+easier to learn and get started with. It has built-in support for concurrency,
+a robust standard library, type safety, multiple built-in types, dynamictyping capability,
+garbage collection, and several other advanced features, such as key-value maps and variable-length 
+arrays.
+
+[Size + Source Code]
+Like C and C++, Go is a compiled language.
+During the compilation process of the application, a runtime component is packaged with the
+executable format. This is why the size of applications built using the Go
+language is comparatively larger than the source code. 
+
+==> Go is not an object-oriented programming language. 
+
+Custom Interfaces
+Custom Types
+Custom Structs
+
+Go, practically everything is a type, and each type implements at least one interface.
+
+intVariable := 123 // Type Inference
+
+Go offers much faster compilation times.
+Go supports concurrency.
+Go supports type embedding and interfaces.
+
+Go programs are constructed using packages.
+
+Developed By Google 2007::
+
+Bug Prone by Creators
+• Type inheritance (no classes)
+• Generic programming
+• Method or operator overloading
+• Pointer arithmetic
+• Structured exception handling
+• Implicit numeric conversions
+• Assertions
+• Circular dependencies among packages
+
+One of the important aspects to remember about Go is that it is not an object-oriented 
+programming language. 
+
+[Chapter 02] - GO Basics
+
+It was originally designed to be the next generation of the C language. It’s capable of performing
+everything you can do with C, including system programming, application development, and so on.
+
+https://go.dev/doc/
+
+Names for packages and variables use lowercase and mixed case.
+In Go, initial uppercase characters indicate a special purpose. ==> Exported
+
+Uppercase --> Public
+lowercase --> Private
+
+Go eliminates semicolons from the ends of lines. 
+
+Semicolons are added during the compilation process as needed.
+
+The Go compiler assumes that the Builtin package is always imported. 
+https://pkg.go.dev/builtin
+
+>> go version
+
+In Go, all programs are organized and run in packages. 
+
+fun add() {}
+
+>> go run hello_world.go
+./hello_world
+
+
+Keywords in Go
+https://go101.org/article/keywords-and-identifiers.html
+
+Up to now (Go 1.24), Go has only 25 keywords:
+
+break     default      func    interface  select
+case      defer        go      map        struct
+chan      else         goto    package    switch
+const     fallthrough  if      range      type
+continue  for          import  return     var
+
+Testar
+chan, defer, fallthrough, go, range, select
+
+uint8, uint16, uint32, int8, int16, and int 32. 
+float32 and float64
+complex64 and complex128.
+
+rune --> int32
+uint --> uint32, uint64
+byte --> uint8
+
+Arrays and Slices
+Maps and Structs
+Enumeration
+
+Functions: Go consider function a type. This allows the passing of one function as
+an argument to another.
+
+Interfaces: Used to specify a set of one or more method signatures.
+
+Channels: Used to connect goroutines.
+
+Pointers: Store direct addresses of memory.
+
+Go also allows programmers to create user-defined data types.
+
+In Go, the OS and IO packages contain different functions for reading
+the standard input from the console. 
+
+Note that Go doesn’t support implicit conversion of numeric types.
+
+https://pkg.go.dev/math
+https://pkg.go.dev/sort
+https://golangdocs.com/functions-in-golang
+https://pkg.go.dev/encoding/json
+https://pkg.go.dev/io/ioutil
+https://pkg.go.dev/strings
+https://pkg.go.dev/net/http
+https://pkg.go.dev/regexp
+https://pkg.go.dev/regexp/syntax
+
+Go is a great language. It’s compact, performant, and has great support for
+concurrency. 
+
+https://go.dev/blog/range-functions
+
+In Go, errors are transmitted as an explicitly mentioned separate return
+value.
+
+All errors in Go are of the type error, which has a built-in interface
+for error handling.
+
+By convention and as a common practice in Go, errors
+are usually the last value returned by a function.
+
+Furthermore, a nil value indicates that no error has occurred. 
+
+Memory is managed automatically by the garbage collectors. However, there are other resources, such as files, that need to be
+explicitly closed.
+
+Note that, unlike other programming languages that use exceptions to perform
+error handling wherever possible, Go uses error-indicating return values to
+obtain the same results.
+
+Predicates in programming refer to functions that take a single argument 
+as input and return a bool value as output.
+
+In Go, Unicode code points are referred to as runes. Additionally, Unicode is
+designed to be a superset of the ASCII format. 
+
+In Go, strings are UTF-8 encoded.
+
+Go supports structs (short for structures) that allow programmers to
+define user-defined types. 
+
+In Go, structs and interfaces go hand in hand to organize methods and data
+handling.
+
+An interface can be defined as a collection of method signatures
+that can be implemented by any other type. 
+
+Go is a multi-paradigm language, as it shares aspects of functional,
+imperative, and object-oriented programming.
+
+Go does not support inheritance using classes; rather, it chooses composition
+over inheritance and uses structs and interfaces to achieve this goal.
+
+In Go, an interface is an abstract type, i.e., it is used to describe all the
+methods that can be implemented by a type.
+
+In Go, it is mandatory to implement all of the methods declared in an
+interface when implementing it. 
+
+IOTA is an identifier that is used with constants that use auto-increment numbers.
+
+In Go, empty interfaces handle values of unknown type.
+func recordEvent(evt interface{}) {}
+
+When working with data, you usually want to encode some Go struct into a json
+string.
+
+gofmt
+Additionally, tools like gofmt come packaged with the Go compiler, which has strict rules for
+not allowing successful compilation in case the code contains any unused
+imported packages, variables, and so on. 
+
+https://go.dev/talks/2014/organizeio.slide#22
+
+Package Documentation
+https://go.dev/talks/2014/organizeio.slide#2
+
+ An API is a set of specifications used to communicate between two programs.
+
+In Go, an anonymous structure is a structure that does not have a name. 
+
 
 

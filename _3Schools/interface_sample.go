@@ -30,3 +30,9 @@ func (name string) Print() { // Implementação do metódo Print() da interface 
 func PrintPerson(p Printer) {
 	p.Print()
 } */
+
+int sum = 0
+for i := 0; i < 10; i++ 
+{
+	sum += i
+}

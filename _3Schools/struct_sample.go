@@ -13,8 +13,8 @@ func mainStruct() {
 	var jonatas Person
 
 	jonatas.name = "Jonatas Alves"
-	jonatas.age = 40
-	jonatas.email = "jonatadev@gmail.com"
+	jonatas.age = 100
+	jonatas.email = "dev@gmail.com"
 
 	fmt.Println("Name = ", jonatas.name)
 	fmt.Println()
